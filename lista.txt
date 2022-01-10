@@ -1,0 +1,98 @@
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> lista = []
+>>> lista.append(3.59)
+>>> lista.append(1.99)
+>>> lista.append(2.99)
+>>> lista
+[3.59, 1.99, 2.99]
+>>> lista2 = lista.copy()
+>>> lista2
+[3.59, 1.99, 2.99]
+>>> lista3 = lista
+>>> lista3
+[3.59, 1.99, 2.99]
+>>> lista3 = lista
+>>> lista3
+[3.59, 1.99, 2.99]
+>>> lista3.append(9.99)
+>>> lista2.clear()
+>>> 
+>>> lista2
+[]
+>>> lista.count(1.99)
+1
+>>> lista
+[3.59, 1.99, 2.99, 9.99]
+>>> lista.index(1.99)
+1
+>>> lista[1]
+1.99
+>>> cadastro = ['joão','maria','luiz','carlos','ana']
+>>> cadastro.index('luiz')
+2
+>>> cadastro[2] = 'Luiz Antonio'
+>>> cadastro
+['joão', 'maria', 'Luiz Antonio', 'carlos', 'ana']
+>>> ['joao','maria','Luiz Antonio','carlos','ana']
+['joao', 'maria', 'Luiz Antonio', 'carlos', 'ana']
+>>> cadastro.insert(2,'Anacleto')
+>>> cadastro
+['joão', 'maria', 'Anacleto', 'Luiz Antonio', 'carlos', 'ana']
+>>> len(cadastro)
+6
+>>> cadastro[5]
+'ana'
+>>> cadastro.pop(5)
+'ana'
+>>> cadastro
+['joão', 'maria', 'Anacleto', 'Luiz Antonio', 'carlos']
+>>> cadastro.remove('joão')
+>>> cadastro.reverse()
+>>> cadastro
+['carlos', 'Luiz Antonio', 'Anacleto', 'maria']
+>>> cadastro.sort()
+>>> cadastro
+['Anacleto', 'Luiz Antonio', 'carlos', 'maria']
+>>> frutas{'uva','maçã','uva','laranja'}
+SyntaxError: invalid syntax
+>>> frutas = {'uva','maçã','uva','laranja'}
+>>> frutas
+{'maçã', 'laranja', 'uva'}
+>>> a = set('lkasjkslkdlslsjeo')
+>>> a
+{'d', 'k', 'e', 's', 'l', 'a', 'j', 'o'}
+>>> a = set('abracadabra')
+>>> a
+{'d', 'c', 'b', 'a', 'r'}
+>>> 
+
+
+
+Estruturas de dados
+1. Lista ou vetor ou array
+
+2. tupla = lista imutável
+tupla = 1,2,3,4,5
+ou 
+tupla = (1,2,3,4,5)
+
+3. Conjunto = é uma coleção desordenada de elementos sem repetição.Usado para lista de dados sem repetição.
+
+Para configurar o caminho do Python no Windows
+1. procurar icone python (Digite aqui para pesquisar)
+Digita: python
+
+2. botão direito sobre o ícone ->Abrir local do arquivo
+
+3. botão direito: abrir local
+
+4. copia o endereço do local do python
+
+5. pesquisa no windows: ambiente
+
+6. clica no botão: variáveis de ambiente-> escolhe variáveis do sistema
+
+7. Escolhe a variável path e clica em editar
+
+8. Clica em novo e cola o endereço copiado.Ok Ok Ok.
