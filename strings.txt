@@ -1,0 +1,14 @@
+https://www.w3schools.com/python/python_ref_string.asp
+
+capitalize()
+count()
+endswith()
+find()
+format()
+index()
+lower()
+replace()
+split()
+strip()
+title()
+upper()
