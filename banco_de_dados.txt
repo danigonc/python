@@ -1,0 +1,9 @@
+banco de dados
+
+CREATE TABLE aluno (
+    id   INTEGER      PRIMARY KEY,
+    nome VARCHAR (60) NOT NULL,
+    CPF  CHAR (14) 
+);
+
+

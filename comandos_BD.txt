@@ -1,0 +1,8 @@
+Comandos para criar BD
+
+CREATE = INSERT, CREATE TABLE
+Read = Select
+Update = update
+D = delete
+
+CRUD

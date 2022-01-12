@@ -1,0 +1,1 @@
+Select id as 'CÓDIGO', lower(nome) as 'NOME DO ALUNO', cpf as 'CPF' from Aluno order by id;
