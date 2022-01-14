@@ -1,0 +1,5 @@
+Paradigmas de Programação
+
+- procedural (estruturado)
+- programação orientada à objetos: classes e objetos
+- programação funcional
